@@ -1,0 +1,84 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+    background-color: rgb(233, 216, 29);
+}
+
+/* Estilos para los elementos con la clase 'menu' */
+.menu {
+    color: rgb(183, 13, 4); 
+    text-decoration: none;
+    padding-left: 10px; 
+}
+
+/* Estilos para los elementos con la clase 'menu' que también tienen la clase 'active' */
+.menu.active {
+    color: rgb(3, 21, 1); 
+}
+
+/* Estilos para el elemento 'main' */
+main {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: rgb(13, 170, 249);
+}
+
+/* Estilos para los elementos con la clase 'Card' */
+.Card {
+    background-color: rgb(40, 39, 21);
+    color: rgb(233, 233, 19); 
+}
+
+/* Estilos para los elementos con la clase 'img' */
+.img {
+    display: flex; 
+    justify-content: center; 
+}
+
+/* Estilos para los elementos con la clase 'card_body' */
+.card_body {
+    padding-left: 200px;
+}
+
+
+.pokemonCard {
+    display: flex; 
+    justify-content: center;
+    width: 600px; 
+    background-color: red; 
+    margin: 1% auto; 
+    padding: 2%; 
+}
+
+/* Estilos para los elementos con la clase 'pokemonCardImg' */
+.pokemonCardImg {
+    width: 80%; 
+}
+
+/* Estilos para los elementos con la clase 'pokemonDetails' */
+.pokemonDetails {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.pokemon {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* Estilos para los elementos con la clase 'btn' */
+.btn {
+    margin-top: 10px;
+    width: 200px; 
+    background-color: rgb(251, 231, 9);
+    color: black; /* Color del texto */
+}
+
+/* Estilos para los elementos con la clase 'detalles' */
+.detalles {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: black; 
+}

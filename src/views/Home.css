@@ -1,0 +1,8 @@
+/* Define estilos para un contenedor */
+.container {
+    /* Fondo con un degradado lineal */
+    background: rgb(194, 186, 185); /* Color rojo intenso */
+    background: linear-gradient(90deg, red 12%, rgba(247, 247, 7, 0.943) 72%);
+    /* El degradado va desde el rojo intenso hasta un tono dorado */
+}
+
